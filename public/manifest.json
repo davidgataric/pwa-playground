@@ -1,0 +1,25 @@
+{
+  "name": "PWA Playground",
+  "short_name": "PWAGround",
+  "icons": [
+    {
+      "src": "/src/img/icons/swingsmall.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/src/img/icons/swing.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/index.html",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff",
+  "theme_color": "#30cde6",
+  "description": "A PWA playground",
+  "lang": "de-CH",
+  "prefer_related_applications": false
+}
