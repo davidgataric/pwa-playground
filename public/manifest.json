@@ -17,7 +17,7 @@
   "scope": ".",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#fff",
+  "background_color": "#81b8f7",
   "theme_color": "#30cde6",
   "description": "A PWA playground",
   "lang": "de-CH",

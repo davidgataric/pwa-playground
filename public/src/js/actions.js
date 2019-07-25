@@ -17,3 +17,13 @@ function downloadApp() {
 }
 
 installButton.addEventListener('click', downloadApp);
+
+// check if app is installed
+function isRunningStandalone() {
+    return (window.matchMedia('(display-mode: standalone)').matches);
+}
+
+// hide install button because app is installed
+if (isRunningStandalone()) {
+    installButton.style.visibility = 'hidden';
+}

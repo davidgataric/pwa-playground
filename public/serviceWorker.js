@@ -1,5 +1,5 @@
-var CACHE_STATIC_NAME = 'static-v1';
-var CACHE_DYNAMIC_NAME = 'dynamic-v1';
+var CACHE_STATIC_NAME = 'static-v9';
+var CACHE_DYNAMIC_NAME = 'dynamic-v3';
 
 self.addEventListener('install', function (event) {
     event.waitUntil(
